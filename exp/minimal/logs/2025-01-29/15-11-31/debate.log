@@ -1,0 +1,858 @@
+[2025-01-29 15:11:40,712][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 15:11:40,714][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 15:11:40,716][__main__][INFO] - Running debates with 80.0 threads
+[2025-01-29 15:11:41,493][__main__][INFO] - Processing exp/minimal/debate_sim/data0.csv
+[2025-01-29 15:11:41,494][__main__][INFO] - Time is 2025-01-29 15:11:41.493099
+[2025-01-29 15:11:41,495][__main__][INFO] - Processing 20 rows
+[2025-01-29 15:11:43,532][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,534][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,551][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,554][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,572][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,573][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,582][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,583][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,589][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,589][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,595][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,596][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,601][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,602][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,606][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,607][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,611][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,612][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,617][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,617][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,623][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,624][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,629][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,630][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,635][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,636][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,640][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,641][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,645][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,646][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,650][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,651][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,662][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,663][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,675][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,676][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,685][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,687][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,698][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,699][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,716][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,717][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,732][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,734][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,746][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,747][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,755][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,757][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,764][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,765][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,772][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,774][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,781][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,782][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,791][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,792][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,801][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,802][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,826][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,828][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,856][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,858][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,885][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,888][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,922][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,924][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,957][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,959][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,979][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,979][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,985][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,986][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:43,993][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:43,994][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:44,006][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:44,007][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:44,016][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:44,017][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:44,023][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Internal Server Error (500): {"error":"500 Internal Server Error"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 137, in __call__
+    raise RuntimeError(f"Internal Server Error (500): {error_text}")
+RuntimeError: Internal Server Error (500): {"error":"500 Internal Server Error"}
+.
+Retrying now. (Attempt 1/10)
+[2025-01-29 15:11:44,025][core.llm_api.llama_llm][INFO] - Waiting 1.50 seconds before retry 2/10
+[2025-01-29 15:11:45,076][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,077][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,110][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,111][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,179][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,180][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,209][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,211][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,252][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,254][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,280][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,282][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,310][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,312][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,340][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,342][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,360][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,363][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,530][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,532][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,588][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,590][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,618][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,620][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,646][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,649][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,679][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,680][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,746][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,748][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,813][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,815][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,851][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,852][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,881][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,883][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,913][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,914][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:45,942][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:45,944][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,016][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,018][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,044][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,046][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,073][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,074][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,109][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,111][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,137][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,140][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,158][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,159][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,178][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,180][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,207][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,209][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,230][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,231][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,261][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,262][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,286][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,288][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,314][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,315][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,340][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,342][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,372][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,373][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,403][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,405][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,432][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,436][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,456][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,458][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,490][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,492][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,518][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,520][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:46,547][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 2/10)
+[2025-01-29 15:11:46,549][core.llm_api.llama_llm][INFO] - Waiting 2.25 seconds before retry 3/10
+[2025-01-29 15:11:47,393][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,394][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,448][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,450][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,511][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,513][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,555][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,557][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,604][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,606][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,651][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,653][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,681][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,683][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,747][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,749][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,765][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,766][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,851][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,853][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,918][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,919][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,936][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,937][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,977][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,978][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:47,995][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:47,995][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,048][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,048][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,139][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,140][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,188][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,190][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,226][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,228][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,270][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,271][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,392][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,393][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,421][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,423][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,453][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,454][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,515][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,516][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,543][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,544][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,567][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,569][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,626][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,627][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,670][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 122, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,672][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,700][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,702][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,712][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,713][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,721][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,722][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:48,730][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: Service Unavailable (503): {"error":"503 Service Unavailable"}, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 134, in __call__
+    raise RuntimeError(f"Service Unavailable (503): {error_text}")
+RuntimeError: Service Unavailable (503): {"error":"503 Service Unavailable"}
+.
+Retrying now. (Attempt 3/10)
+[2025-01-29 15:11:48,731][core.llm_api.llama_llm][INFO] - Waiting 3.38 seconds before retry 4/10
+[2025-01-29 15:11:50,228][asyncio][ERROR] - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f41a373e810>
+[2025-01-29 15:11:50,267][asyncio][ERROR] - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f41a31bfd20>, 26195.465319503), (<aiohttp.client_proto.ResponseHandler object at 0x7f41a3202040>, 26195.49392818), (<aiohttp.client_proto.ResponseHandler object at 0x7f41a3202890>, 26195.503971843), (<aiohttp.client_proto.ResponseHandler object at 0x7f41a31bfbd0>, 26195.512675095)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f41a373e850>

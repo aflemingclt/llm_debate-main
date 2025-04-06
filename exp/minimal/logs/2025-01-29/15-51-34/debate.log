@@ -1,0 +1,138 @@
+[2025-01-29 15:51:38,656][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 15:51:38,657][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 15:51:38,658][__main__][INFO] - Running debates with 80.0 threads
+[2025-01-29 15:51:38,943][__main__][INFO] - Processing exp/minimal/debate_sim/data0.csv
+[2025-01-29 15:51:38,944][__main__][INFO] - Time is 2025-01-29 15:51:38.943105
+[2025-01-29 15:51:38,945][__main__][INFO] - Processing 20 rows
+[2025-01-29 15:52:02,296][core.rollouts.quality_sim][INFO] - Error occurred on debate 19, step 0. Error message: Invalid stop reason: StopReason.STOP_SEQUENCE.
+[2025-01-29 15:52:02,543][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.STOP_SEQUENCE
+
+[2025-01-29 15:52:15,756][core.rollouts.quality_sim][INFO] - Error occurred on debate 10, step 0. Error message: Invalid stop reason: StopReason.STOP_SEQUENCE.
+[2025-01-29 15:52:15,836][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.STOP_SEQUENCE
+
+[2025-01-29 15:52:20,919][core.rollouts.quality_sim][INFO] - Error occurred on debate 9, step 0. Error message: Invalid stop reason: StopReason.STOP_SEQUENCE.
+[2025-01-29 15:52:21,061][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.STOP_SEQUENCE
+
+[2025-01-29 15:53:38,202][core.rollouts.quality_sim][INFO] - Error occurred on debate 17, step 0. Error message: Invalid stop reason: StopReason.STOP_SEQUENCE.
+[2025-01-29 15:53:38,258][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.STOP_SEQUENCE
+
+[2025-01-29 15:53:46,881][core.rollouts.quality_sim][INFO] - Error occurred on debate 5, step 0. Error message: Invalid stop reason: StopReason.STOP_SEQUENCE.
+[2025-01-29 15:53:47,017][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.STOP_SEQUENCE
+
+[2025-01-29 15:55:31,384][asyncio][ERROR] - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9a29511950>

@@ -1,0 +1,89 @@
+[2025-01-29 16:05:23,442][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 16:05:23,443][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 16:05:23,444][__main__][INFO] - Running debates with 80.0 threads
+[2025-01-29 16:05:23,934][__main__][INFO] - Processing exp/minimal/debate_sim/data0.csv
+[2025-01-29 16:05:23,936][__main__][INFO] - Time is 2025-01-29 16:05:23.934759
+[2025-01-29 16:05:23,937][__main__][INFO] - Processing 20 rows
+[2025-01-29 16:05:34,708][core.rollouts.quality_sim][INFO] - Error occurred on debate 11, step 0. Error message: Invalid stop reason: StopReason.MAX_TOKENS.
+[2025-01-29 16:05:34,770][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.MAX_TOKENS
+
+[2025-01-29 16:05:40,406][core.rollouts.quality_sim][INFO] - Error occurred on debate 3, step 0. Error message: Invalid stop reason: StopReason.MAX_TOKENS.
+[2025-01-29 16:05:40,446][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.MAX_TOKENS
+
+[2025-01-29 16:05:43,571][core.rollouts.quality_sim][INFO] - Error occurred on debate 2, step 0. Error message: Invalid stop reason: StopReason.MAX_TOKENS.
+[2025-01-29 16:05:43,617][core.rollouts.quality_sim][INFO] - Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 141, in run
+    transcript = await self.debate_turn(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/rollouts/quality_sim.py", line 73, in debate_turn
+    raise result
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 413, in take_turn
+    responses = await self.get_completion(transcript)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/agents/debater_quality.py", line 275, in get_completion
+    responses = await self.api_handler(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llm.py", line 196, in __call__
+    candidate_responses = await model_class(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 164, in __call__
+    llm_response = LLMResponse(
+                   ^^^^^^^^^^^^
+  File "<attrs generated init core.llm_api.base_llm.LLMResponse>", line 5, in __init__
+    _setattr('stop_reason', __attr_converter_stop_reason(stop_reason))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/base_llm.py", line 47, in factory
+    raise ValueError(f"Invalid stop reason: {stop_reason}")
+ValueError: Invalid stop reason: StopReason.MAX_TOKENS
+
+[2025-01-29 16:05:48,471][asyncio][ERROR] - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fc71ba8e1d0>
+[2025-01-29 16:05:48,519][asyncio][ERROR] - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb02040>, 29409.63982151), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb00c20>, 29410.387478059), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babf930>, 29411.202440676), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb00f30>, 29412.003411377), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babfa80>, 29412.74671617), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babfbd0>, 29413.514009796), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babf7e0>, 29414.424523216), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babcde0>, 29417.311891738), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb01a90>, 29418.020285187), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb01ef0>, 29419.212930638), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb01da0>, 29419.998267637), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb01b00>, 29420.909213398), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babf0e0>, 29421.695544955), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babf3f0>, 29422.499973238), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb02970>, 29423.285419158), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71babf380>, 29424.99952569), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb026d0>, 29425.801119587), (<aiohttp.client_proto.ResponseHandler object at 0x7fc71bb00590>, 29426.519289102)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7fc71ba8e190>

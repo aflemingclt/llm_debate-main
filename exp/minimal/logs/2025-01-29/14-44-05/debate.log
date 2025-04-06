@@ -1,0 +1,2007 @@
+[2025-01-29 14:44:09,373][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 14:44:09,375][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 14:44:09,378][__main__][INFO] - Running debates with 80.0 threads
+[2025-01-29 14:44:09,833][__main__][INFO] - Processing exp/minimal/debate_sim/data0.csv
+[2025-01-29 14:44:09,834][__main__][INFO] - Time is 2025-01-29 14:44:09.833840
+[2025-01-29 14:44:09,835][__main__][INFO] - Processing 20 rows
+[2025-01-29 14:44:11,576][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,601][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,627][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,663][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,685][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,732][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,748][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,768][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,787][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,799][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,818][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,839][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,858][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,877][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,907][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,935][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,964][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:11,990][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,003][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,022][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,047][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,070][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,086][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,100][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,112][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,125][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,136][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,153][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,164][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,173][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,184][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,193][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,214][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,239][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,254][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,285][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,308][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,336][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,571][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,612][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 500, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 500
+.
+Retrying now. (Attempt 0)
+[2025-01-29 14:44:12,644][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,685][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,700][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,732][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,751][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,791][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,814][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,852][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,870][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,887][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,905][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:12,992][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,036][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,052][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,067][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,083][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,104][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,135][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,192][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,215][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,266][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,331][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,371][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,399][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,428][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,455][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,484][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,517][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,543][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,580][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,609][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,638][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,670][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,696][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,730][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,790][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,819][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,844][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,902][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:13,950][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 1)
+[2025-01-29 14:44:14,206][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,270][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,316][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,342][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,404][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,456][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,496][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,516][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,547][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,576][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,605][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,675][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,736][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,758][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,789][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,815][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,841][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,866][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,919][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:14,976][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,022][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,073][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,104][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,134][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,162][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,203][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,234][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,275][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,318][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,354][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,377][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,403][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,436][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,465][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,528][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,590][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,622][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,658][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,683][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:15,726][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 2)
+[2025-01-29 14:44:16,570][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,655][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,723][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,744][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,799][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,899][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,925][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,952][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:16,982][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,044][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,072][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,136][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,164][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,217][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,272][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,294][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,328][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,352][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,412][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,446][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,477][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,504][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,572][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,620][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,666][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,698][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,730][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,762][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,781][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,839][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,910][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,948][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:17,977][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,021][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,049][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,078][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,099][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,118][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,141][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:18,162][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 3)
+[2025-01-29 14:44:20,106][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,137][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,195][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,261][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,316][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,349][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,402][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,429][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,496][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,528][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,562][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,631][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,698][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,733][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,762][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,808][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,852][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,916][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:20,948][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,000][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,028][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,062][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,091][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,153][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,218][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,278][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,310][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,326][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,348][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,393][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,440][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,464][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,488][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,523][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,573][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,624][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,708][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,730][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,753][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:21,781][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 4)
+[2025-01-29 14:44:25,241][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,328][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,382][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,424][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,493][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,523][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,593][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,654][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,682][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,708][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,768][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,832][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,862][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,915][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:25,961][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,005][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,041][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,114][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,161][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,208][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,239][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,271][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,317][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,385][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,427][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,470][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,501][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,531][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,600][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,668][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,696][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,723][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,752][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,785][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,825][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,885][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,917][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:26,949][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:27,045][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:27,108][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 5)
+[2025-01-29 14:44:32,942][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,005][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,064][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,103][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,166][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,205][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,270][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,341][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,374][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,431][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,462][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,510][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,580][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,603][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,664][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,728][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,760][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,825][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,889][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,920][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,975][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:33,990][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,031][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,046][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,075][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: ServerDisconnectedError, Error Details: Server disconnected, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 120, in __call__
+    async with self.session.post(
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 1425, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client.py", line 730, in _request
+    await resp.start(conn)
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 1059, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aflem/llm_debate-main/.venv/lib/python3.11/site-packages/aiohttp/streams.py", line 671, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,116][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,138][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,175][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,249][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,331][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,381][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,422][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,474][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,504][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,537][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,583][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,609][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,643][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,709][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:34,768][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 6)
+[2025-01-29 14:44:44,396][core.llm_api.llama_llm][WARNING] - Encountered API error: Exception Type: RuntimeError, Error Details: API returned status code 503, Traceback: Traceback (most recent call last):
+  File "/mnt/c/Users/aflem/llm_debate-main/core/llm_api/llama_llm.py", line 126, in __call__
+    raise RuntimeError(f"API returned status code {response.status}")
+RuntimeError: API returned status code 503
+.
+Retrying now. (Attempt 7)
+[2025-01-29 14:44:45,843][asyncio][ERROR] - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6e5e41e590>
+[2025-01-29 14:44:45,887][asyncio][ERROR] - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f6e5e6970e0>, 24571.175180084)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f6e5e41e5d0>

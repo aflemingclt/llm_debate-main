@@ -1,0 +1,6 @@
+[2025-01-29 02:16:38,429][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 02:16:38,430][core.create_agents][INFO] - {'model': 'meta-llama/Llama-3.2-1B', 'temperature': 0.4, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-01-29 02:16:38,431][__main__][INFO] - Running debates with 80.0 threads
+[2025-01-29 02:16:38,542][__main__][INFO] - Processing exp/minimal/debate_sim/data0.csv
+[2025-01-29 02:16:38,543][__main__][INFO] - Time is 2025-01-29 02:16:38.542729
+[2025-01-29 02:16:38,543][__main__][INFO] - Processing 20 rows
